@@ -4,13 +4,27 @@
       <img src="assets/images/icons8-winter-64.png" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
       Weather App
     </a>
-    <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-    </form>
+    <!-- <form class="d-flex" role="search"></form> -->
+        <input class="form-control me-2" type="text" placeholder="Search" aria-label="Search" [(ngModel)]="inputValue" />
+        <button class="btn btn-outline-success" (click)="handleClick()">Search</button>
+    <!-- </form> -->
   </div>
 </nav>
 
-<app-forecast-window></app-forecast-window>
+<div class="card mx-auto mt-3" style="width: calc(100% - 3%); margin: 1%;">
+  <div class="card-body">
+    <p>Ubicación: {{ weatherData.location.name }}</p>
+    <p>Tiempo actual: {{ weatherData.timelines.minutely[0].time }}</p>
+    <p>Grados: {{ weatherData.timelines.minutely[0].values.temperature }}</p>
+    <p>Dirección de viente: {{ weatherData.timelines.minutely[0].values.windDirection }}</p>
+    <p>Humedad: {{ weatherData.timelines.minutely[0].values.humidity }}</p>
+    <p>Visibilidad: {{ weatherData.timelines.minutely[0].values.visibility }}</p>
+    <p>Indice UV: {{ weatherData.timelines.minutely[0].values.uvIndex }}</p>
+    <p>Punto de rocio: {{ weatherData.timelines.minutely[0].values.dewPoint }}</p>
+
+    <!-- <p>Latitude: {{ weatherData.location.latitude }}</p> -->
+    <!-- <p>Longitude: {{ weatherData.location.longitude }}</p> -->
+  </div>
+</div>
 
 <!-- <router-outlet></router-outlet> -->
