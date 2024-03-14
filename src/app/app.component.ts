@@ -48,117 +48,117 @@ export class AppComponent {
   arrayWeatherCode: arrayWeatherCodes = [
     {
       code: "1000",
-      image: "src/assets/images/weatherCode/1000.png",
+      image: "assets/images/weatherCode/1000.png",
       description: "Clear, Sunny"
     },
     {
       code: "1100",
-      image: "src/assets/images/weatherCode/1100.png",
+      image: "assets/images/weatherCode/1100.png",
       description: "Mostly Clear"
     },
     {
       code: "1101",
-      image: "src/assets/images/weatherCode/1101.png",
+      image: "assets/images/weatherCode/1101.png",
       description: "Partly Cloudy"
     },
     {
       code: "1102",
-      image: "src/assets/images/weatherCode/1102.png",
+      image: "assets/images/weatherCode/1102.png",
       description: "Mostly Cloudy"
     },
     {
       code: "1001",
-      image: "src/assets/images/weatherCode/1001.png",
+      image: "assets/images/weatherCode/1001.png",
       description: "Cloudy"
     },
     {
       code: "2000",
-      image: "src/assets/images/weatherCode/2000.png",
+      image: "assets/images/weatherCode/2000.png",
       description: "Fog"
     },
     {
       code: "2100",
-      image: "src/assets/images/weatherCode/2100.png",
+      image: "assets/images/weatherCode/2100.png",
       description: "Light Fog"
     },
     {
       code: "4000",
-      image: "src/assets/images/weatherCode/4000.png",
+      image: "assets/images/weatherCode/4000.png",
       description: "Drizzle"
     },
     {
       code: "4001",
-      image: "src/assets/images/weatherCode/4001.png",
+      image: "assets/images/weatherCode/4001.png",
       description: "Rain"
     },
     {
       code: "4200",
-      image: "src/assets/images/weatherCode/4200.png",
+      image: "assets/images/weatherCode/4200.png",
       description: "Light Rain"
     },
     {
       code: "4201",
-      image: "src/assets/images/weatherCode/4201.png",
+      image: "assets/images/weatherCode/4201.png",
       description: "Heavy Rain"
     },
     {
       code: "5000",
-      image: "src/assets/images/weatherCode/5000.png",
+      image: "assets/images/weatherCode/5000.png",
       description: "Snow"
     },
     {
       code: "5001",
-      image: "src/assets/images/weatherCode/5001.png",
+      image: "assets/images/weatherCode/5001.png",
       description: "Flurries"
     },
     {
       code: "5100",
-      image: "src/assets/images/weatherCode/5100.png",
+      image: "assets/images/weatherCode/5100.png",
       description: "Light Snow"
     },
     {
       code: "5101",
-      image: "src/assets/images/weatherCode/5101.png",
+      image: "assets/images/weatherCode/5101.png",
       description: "Heavy Snow"
     },
     {
       code: "6000",
-      image: "src/assets/images/weatherCode/6000.png",
+      image: "assets/images/weatherCode/6000.png",
       description: "Freezing Drizzle"
     },
     {
       code: "6001",
-      image: "src/assets/images/weatherCode/6001.png",
+      image: "assets/images/weatherCode/6001.png",
       description: "Freezing Rain"
     },
     {
       code: "6200",
-      image: "src/assets/images/weatherCode/6200.png",
+      image: "assets/images/weatherCode/6200.png",
       description: "Light Freezing Rain"
     },
     {
       code: "6201",
-      image: "src/assets/images/weatherCode/6201.png",
+      image: "assets/images/weatherCode/6201.png",
       description: "Heavy Freezing Rain"
     },
     {
       code: "7000",
-      image: "src/assets/images/weatherCode/7000.png",
+      image: "assets/images/weatherCode/7000.png",
       description: "Ice Pellets"
     },
     {
       code: "7101",
-      image: "src/assets/images/weatherCode/7101.png",
+      image: "assets/images/weatherCode/7101.png",
       description: "Heavy Ice Pellets"
     },
     {
       code: "7102",
-      image: "src/assets/images/weatherCode/7102.png",
+      image: "assets/images/weatherCode/7102.png",
       description: "Light Ice Pellets"
     },
     {
       code: "8000",
-      image: "src/assets/images/weatherCode/8000.png",
+      image: "assets/images/weatherCode/8000.png",
       description: "Thunderstorm"
     },
   ]

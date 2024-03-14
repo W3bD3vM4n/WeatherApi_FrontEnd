@@ -15,7 +15,9 @@
   <div class="card text-bg-info m-4" style="width: 24rem;">
     <div class="card-header">
       <h6>{{ weatherData.location.name }}</h6>
-      <p>Imagen</p>
+      <p class="center">
+        <img *ngIf="extractedCode?.image" src="{{ extractedCode?.image}}" alt="weather image">
+      </p>
     </div>
     <div class="card-body">
       <p class="card-text"></p>
